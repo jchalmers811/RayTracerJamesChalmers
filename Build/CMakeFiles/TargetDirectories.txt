@@ -1,0 +1,3 @@
+/Users/James/Desktop/RayTracerAssignment/Build/CMakeFiles/rebuild_cache.dir
+/Users/James/Desktop/RayTracerAssignment/Build/CMakeFiles/edit_cache.dir
+/Users/James/Desktop/RayTracerAssignment/Build/CMakeFiles/rayTracer.dir

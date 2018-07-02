@@ -1,0 +1,56 @@
+Scene
+BackgroundColour 0 0 0
+RayDepth 1
+RenderSize 200 200
+Filename mirrorTest6.png
+End
+
+Object Sphere
+Colour 1 1 0
+Specular 1 1 1 1
+Scale 0.5
+Translate 0 0 3
+
+End
+
+Object Plane
+Scale 10
+Colour 1 1 1
+Mirror 1 1 1
+Rotate Y 90
+Translate -0.2 1 0
+End
+
+Object Plane
+Scale 10
+Colour 1 1 1
+Mirror 1 1 1
+Rotate Y 90
+Translate 0.2 1 0
+End
+
+Object Plane
+Scale 10
+Colour 1 1 1
+Mirror 1 1 1
+Rotate X 90
+Translate 0 1 0
+End
+
+
+Object Plane
+Scale 10
+Colour 1 1 1
+Mirror 1 1 1
+Translate 0 0 10
+End
+
+Camera PinholeCamera 1
+End
+Light PointLight
+Location 0 -1 -2
+Colour 8 8 8
+End
+Light AmbientLight
+Colour 0.2 0.2 0.2
+End

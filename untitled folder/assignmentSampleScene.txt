@@ -1,0 +1,159 @@
+Scene
+BackgroundColour 0 0 0
+RenderSize 1000 1000
+Filename assignmentSampleScene.png
+End
+
+Object Cylinder
+Colour 0.5 0.5 0.5
+Specular 1 1 1 1
+Scale3 0.25 0.25 3
+Rotate X 90
+Translate -2 -2 10
+End
+
+Object Cylinder
+Colour 0.5 0.5 0.5
+Specular 1 1 1 1
+Scale3 0.25 0.25 3
+Rotate X 90
+Translate -2 -2 9
+End
+
+Object Cylinder
+Colour 0.5 0.5 0.5
+Specular 1 1 1 1
+Scale3 0.25 0.25 3
+Rotate X 90
+Translate -2 -2 8
+End
+
+Object Cylinder
+Colour 0.5 0.5 0.5
+Specular 1 1 1 1
+Scale3 0.25 0.25 3
+Rotate X 90
+Translate -2 -2 7
+End
+
+Object Cylinder
+Colour 0.5 0.5 0.5
+Specular 1 1 1 1
+Scale3 0.25 0.25 3
+Rotate X 90
+Translate -2 -2 6
+End
+
+Object Cylinder
+Colour 0.5 0.5 0.5
+Specular 1 1 1 1
+Scale3 0.25 0.25 3
+Rotate X 90
+Translate -2 -2 5
+End
+
+Object Cylinder
+Colour 0.5 0.5 0.5
+Specular 1 1 1 1
+Scale3 0.25 0.25 3
+Rotate X 90
+Translate -2 -2 4
+End
+
+Object Cylinder
+Colour 0.5 0.5 0.5
+Specular 1 1 1 1
+Scale3 0.25 0.25 3
+Rotate X 90
+Translate -2 -2 3
+End
+
+Object Cylinder
+Colour 0.5 0.5 0.5
+Specular 1 1 1 1
+Scale3 0.25 0.25 3
+Rotate X 90
+Translate -2 -2 2
+End
+
+Object Sphere
+Scale3 0.5 0.5 0.5
+Colour 1 0 0
+Specular 1 1 1 1
+Rotate X 90
+Translate 1 0.5 3
+Mirror 1 1 1
+End
+
+Object Sphere
+Scale3 0.5 0.5 0.5
+Colour 0 1 0
+Specular 1 1 1 1
+Rotate X 90
+Translate -1 0.5 3
+Mirror 1 1 1
+End
+
+Object Sphere
+Scale3 0.5 0.5 0.5
+Colour 0 0 1
+Specular 1 1 1 1
+Rotate X 90
+Translate 0 0.5 2
+Mirror 1 1 1
+End
+
+Object Cube
+Specular 1 1 1 1
+Colour 0.5 0.5 0.5
+Scale3 2.5 5 0.1
+Rotate X 90
+Translate 0 1 6.25
+End
+
+Object Cube
+Specular 1 1 1 1
+Colour 0.5 0.5 0.5
+Scale3 2.5 5 0.1
+Rotate X 90
+Translate 0 -4 6.25
+End
+
+Camera PinholeCamera 1
+End
+
+Light PointLight
+Location 3 0 0
+Colour 8 8 8
+End
+
+Light SpotLight
+Location 3 -2 2
+Colour 8 0 8
+Angle 10
+Direction -1 1 0
+End
+
+Light SpotLight
+Location 3 -2 3
+Colour 8 8 0
+Angle 10
+Direction -1 1 0
+End
+
+Light SpotLight
+Location 4 -2 2.5
+Colour 0 8 8
+Angle 10
+Direction -1 1 0
+End
+
+Light DirectionalLight
+Colour 0.5 0.5 0.5
+Direction 1 2 1
+End
+
+Light AmbientLight
+Colour 0.2 0.2 0.2
+End
+

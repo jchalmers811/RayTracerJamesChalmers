@@ -1,0 +1,49 @@
+Scene
+BackgroundColour 0 0 0
+RenderSize 300 300
+Filename spotLightTest2.png
+End
+
+Object Cylinder
+Colour 1 0 0
+Specular 1 1 1 1
+Rotate Y 0 
+Rotate X 90
+Translate 0 0 3
+Mirror 1 1 1
+End
+
+Object Sphere
+Colour 1 0 0 
+Specular 1 1 1 1
+Rotate Y 0 
+Rotate X 90
+Translate 0 -1 3
+Mirror 1 1 1
+End
+
+Object Plane
+Scale 10
+Colour 1 1 1
+Rotate X 0
+Translate 0 1 4
+End
+
+Camera PinholeCamera 1
+End
+
+Light SpotLight
+Location -1 0 0
+Colour 8 8 8
+Angle 30
+Direction 0 0 1
+End
+
+Light PointLight
+Location 3 0 0
+Colour 8 8 8
+End
+
+Light AmbientLight
+Colour 0.2 0.2 0.2
+End
